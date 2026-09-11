@@ -106,7 +106,7 @@ function App() {
               className="h-14 w-14 dark:hidden"
             />
             <img
-              src="/logo-dark.png"
+              src="/SIHGANG/logo-dark.png"
               alt=""
               aria-hidden="true"
               className="hidden h-14 w-14 dark:block"
