@@ -9,6 +9,8 @@ export default defineConfig({
     tailwindcss(),
   ],
 
+  base: "/DinoBuild/",
+
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "./src"),
