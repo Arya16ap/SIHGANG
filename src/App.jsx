@@ -99,27 +99,28 @@ function App() {
 
         {/* HEADER */}
         <header className="mb-12 text-center">
-          <div className="mb-3 flex items-center justify-center gap-3">
-            <img
-              src="/logo.png"
-              alt="Dino logo"
-              className="h-14 w-14 dark:hidden"
-            />
-            <img
-              src="/SIHGANG/logo-dark.png"
-              alt=""
-              aria-hidden="true"
-              className="hidden h-14 w-14 dark:block"
-            />
-            <h1 className="text-5xl font-bold tracking-tight">
-              Dino
-            </h1>
-          </div>
+        <div className="mb-3 flex items-center justify-center gap-3">
+          <img
+            src={`${import.meta.env.BASE_URL}logo.png`}
+            alt="Dino logo"
+            className="h-14 w-14 dark:hidden"
+          />
 
-          <p className="mt-3 text-sm text-muted-foreground">
-            Shop-floor reports, matched to the right work order.
-          </p>
-        </header>
+          <img
+            src={`${import.meta.env.BASE_URL}logo-dark.png`}
+            alt="Dino logo"
+            className="hidden h-14 w-14 dark:block"
+          />
+
+          <h1 className="text-5xl font-bold tracking-tight">
+            Dino
+          </h1>
+        </div>
+
+        <p className="mt-3 text-sm text-muted-foreground">
+          Shop-floor reports, matched to the right work order.
+        </p>
+      </header>
 
 
         {/* ===================================================== */}
